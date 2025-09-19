@@ -3,8 +3,8 @@
 # SINDy Introductory Tutorial
 
 ## Run in your browser
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/urban-fasel/I-X_workshop_2025/HEAD?labpath=1_data_generation.ipynb)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/urban-fasel/I-X_workshop_2025/blob/HEAD/1_data_generation.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/urban-fasel/I-X_workshop_2025/HEAD?labpath=1_SINDy_ODE.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/urban-fasel/I-X_workshop_2025/blob/HEAD/1_SINDy_ODE.ipynb)
 
 ## Tutorial Structure
 
