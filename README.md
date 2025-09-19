@@ -3,14 +3,13 @@
 # SINDy Introductory Tutorial
 
 ## Run in your browser
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/urban-fasel/I-X_workshop_2025/HEAD?labpath=1_data_generation.ipynb)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/urban-fasel/I-X_workshop_2025/blob/HEAD/1_data_generation.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/urban-fasel/I-X_workshop_2025/HEAD?labpath=1_SINDy_ODE.ipynb)
 
 ## Tutorial Structure
 
 This repository is structured to walk you through a complete example, from generating data to identifying the equations.
 
-1.  **`1_data_generation.ipynb`**: Generate data for a simple dynamic system (e.g., the Lotka-Volterra predator-prey model).
+1.  **`1_SINDy_ODE.ipynb`**: Generate data for a simple dynamic system (e.g., the Lotka-Volterra predator-prey model).
 2.  **`2_sindy_implementation.ipynb`**: Implement the SINDy algorithm from scratch using `numpy` and `scipy`.
 3.  **`3_sindy_with_pySINDy.ipynb`**: Show how to use the dedicated `pySINDy` library, which simplifies the process.
 4.  **`utils.py`**: Helper functions for plotting.
