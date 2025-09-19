@@ -1,5 +1,7 @@
 # Imperial I-X Symbolic Model Discovery workshop
 
+https://www.symbolicmodel.org/home
+
 # SINDy Introductory Tutorial
 
 ## Run in your browser
@@ -10,7 +12,7 @@
 This repository is structured to walk you through a complete example, from generating data to identifying the equations.
 
 1.  **`1_SINDy_ODE.ipynb`**: Generate data for a simple dynamic system (e.g., the Lotka-Volterra predator-prey model).
-2.  **`2_sindy_implementation.ipynb`**: Implement the SINDy algorithm from scratch using `numpy` and `scipy`.
+2.  **`2_SINDy_challenges.ipynb`**: Implement the SINDy algorithm from scratch using `numpy` and `scipy`.
 3.  **`3_sindy_with_pySINDy.ipynb`**: Show how to use the dedicated `pySINDy` library, which simplifies the process.
 4.  **`utils.py`**: Helper functions for plotting.
 5.  **`requirements.txt`**: A list of the necessary Python libraries.
