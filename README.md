@@ -1,10 +1,8 @@
-# Imperial I-X Symbolic Model Discovery workshop
+# Imperial I-X Symbolic Model Discovery workshop - SINDy
 
 https://www.symbolicmodel.org/home
 
-## SINDy Introductory Tutorial
-
-Run in your browser
+Run in your browser: 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/urban-fasel/I-X_workshop_2025/HEAD?labpath=1_SINDy_ODE.ipynb)
 
 ## Workshop Structure
