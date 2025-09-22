@@ -2,9 +2,6 @@
 
 https://www.symbolicmodel.org/home
 
-Run in your browser: 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/urban-fasel/I-X_workshop_2025/HEAD?labpath=1_SINDy_ODE.ipynb)
-
 ## Workshop Structure
 
 1.  **`1_SINDy_ODE.ipynb`**: Generate noisy data, compute time derivatives, build a library of nonlinear terms, compute sparse regression, and evaulate identified model.
