@@ -13,4 +13,4 @@ Run in your browser:
 4.  **`4_SINDy_model_selection.ipynb`**: Different model selection (hyperparameter tuning) strategies.
 5.  **`5_Ensemble-SINDy.ipynb`**: Noise robust SINDy extension 1.
 6.  **`6_weak-SINDy.ipynb`**: Noise robust SINDy extension 2.
-7.  **`utils.py`**: Helper functions for plotting.
+
