@@ -1,5 +1,7 @@
 # Imperial I-X Symbolic Model Discovery workshop - SINDy
 
+## Workshop information
+
 https://www.symbolicmodel.org/home
 
 ## Slides
