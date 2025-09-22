@@ -2,6 +2,10 @@
 
 https://www.symbolicmodel.org/home
 
+## Slides
+
+[SINDy_I-X_workshop_slides.pdf](SINDy_I-X_workshop_slides.pdf)
+
 ## Workshop Structure
 
 1. **[`1_SINDy_ODE.ipynb`](1_SINDy_ODE.ipynb)**: Generate noisy data, compute time derivatives, build a library of nonlinear terms, compute sparse regression, and evaluate identified model.  
