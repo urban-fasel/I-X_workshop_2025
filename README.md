@@ -1,27 +1,16 @@
-# Imperial I-X Symbolic Model Discovery workshop
+# Imperial I-X Symbolic Model Discovery workshop - SINDy
 
 https://www.symbolicmodel.org/home
 
-# SINDy Introductory Tutorial
-
-## Run in your browser
+Run in your browser: 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/urban-fasel/I-X_workshop_2025/HEAD?labpath=1_SINDy_ODE.ipynb)
 
-## Tutorial Structure
+## Workshop Structure
 
-This repository is structured to walk you through a complete example, from generating data to identifying the equations.
-
-1.  **`1_SINDy_ODE.ipynb`**: Generate data for a simple dynamic system (e.g., the Lotka-Volterra predator-prey model).
-2.  **`2_SINDy_challenges.ipynb`**: Implement the SINDy algorithm from scratch using `numpy` and `scipy`.
-3.  **`3_sindy_with_pySINDy.ipynb`**: Show how to use the dedicated `pySINDy` library, which simplifies the process.
-4.  **`utils.py`**: Helper functions for plotting.
-5.  **`requirements.txt`**: A list of the necessary Python libraries.
-
-## Getting Started
-
-1.  Clone this repository: `git clone https://github.com/your-username/sindy-intro-tutorial.git`
-2.  Navigate to the directory: `cd sindy-intro-tutorial`
-3.  Install the required packages: `pip install -r requirements.txt`
-4.  Open and run the Jupyter notebooks in order.
-
-Enjoy your journey into the world of SINDy! 🚀
+1.  **`1_SINDy_ODE.ipynb`**: Generate noisy data, compute time derivatives, build a library of nonlinear terms, compute sparse regression, and evaulate identified model.
+2.  **`2_SINDy_challenges.ipynb`**: "Vanilla" SINDy challenges and limitations.
+3.  **`3_SINDy_PDE.ipynb`**: Identify PDEs from data.
+4.  **`4_SINDy_model_selection.ipynb`**: Different model selection (hyperparameter tuning) strategies.
+5.  **`5_Ensemble-SINDy.ipynb`**: Noise robust SINDy extension 1.
+6.  **`6_weak-SINDy.ipynb`**: Noise robust SINDy extension 2.
+7.  **`utils.py`**: Helper functions for plotting.
