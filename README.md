@@ -15,4 +15,4 @@ https://www.symbolicmodel.org/home
 3. **[`3_SINDy_PDE.ipynb`](3_SINDy_PDE.ipynb)**: Identify PDEs from data.  
 4. **[`4_SINDy_model_selection.ipynb`](4_SINDy_model_selection.ipynb)**: Different model selection (hyperparameter tuning) strategies.  
 5. **[`5_Ensemble-SINDy.ipynb`](5_Ensemble-SINDy.ipynb)**: Noise robust SINDy extension 1.  
-6. **[`6_weak-SINDy.ipynb`](6_weak-SINDy.ipynb)**: Noise robust SINDy extension 2.  
+6. **[`6_weak_SINDy.ipynb`](6_weak_SINDy.ipynb)**: Noise robust SINDy extension 2.  
