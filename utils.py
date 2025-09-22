@@ -2,42 +2,6 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
 
-def poolData(x, polyorder):
-    """Builds a polynomial library of candidate functions."""
-
-    # If the input is a 1D array, convert it to a 2D array for consistent processing.
-    if x.ndim == 1:
-        x = x.reshape(1, -1)
-    
-    n_samples, n_vars = x.shape
-    ind = 0
-    # Add a column for the constant term (1)
-    theta = np.ones((n_samples, 1))
-    ind += 1
-
-    # Poly order 1
-    for i in range(n_vars):
-        theta = np.hstack([theta, x[:, i:i+1]])
-        ind += 1
-    
-    # Poly order 2
-    if polyorder >= 2:
-        for i in range(n_vars):
-            for j in range(i, n_vars):
-                theta = np.hstack([theta, (x[:, i] * x[:, j]).reshape(-1, 1)])
-                ind += 1
-
-    # Poly order 3
-    if polyorder >= 3:
-        for i in range(n_vars):
-            for j in range(i, n_vars):
-                for k in range(j, n_vars):
-                    theta = np.hstack([theta, (x[:, i] * x[:, j] * x[:, k]).reshape(-1, 1)])
-                    ind += 1
-    
-    return theta
-
-
 def plot_sindy(t_data, x_data, t_sindy, x_sindy):
     """
     Compares original data with SINDy model simulation for the Lorenz system.
