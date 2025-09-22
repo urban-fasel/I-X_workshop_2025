@@ -6,7 +6,7 @@ def plot_sindy(t_data, x_data, t_sindy, x_sindy):
     """
     Compares original data with SINDy model simulation for the Lorenz system.
     """
-    fig = plt.figure(figsize=(8, 10))
+    fig = plt.figure(figsize=(8, 8))
     
     ax1 = fig.add_subplot(5, 1, 1)
     ax1.plot(t_data, x_data[:, 0], 'b', label='Data x', linewidth=1.2)
